@@ -1,3 +1,16 @@
 *{
-    background-color: rgb(255, 187, 240);
+    background-color: rgb(254, 208, 244);
+}
+.romantic{
+    margin-left: 400px;
+}
+.love{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+style
+.letter {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
