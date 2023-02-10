@@ -1,16 +1,53 @@
 *{
     background-color: rgb(254, 208, 244);
+    animation-name: example;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
 }
+@keyframes example {
+        0%   {background-color: rgb(254,208,244);}
+        25%  {background-color: rgb(223, 146, 219);}
+        50%  {background-color: rgb(244, 107, 187);}
+        100% {background-color: rgb(230, 207, 221);}
+  }
+
 .romantic{
-    margin-left: 400px;
+ text-align: center;
 }
 .love{
-    margin-left: 200px;
-    margin-right: 200px;
+    text-align: center; 
 }
 style
 .letter {
     display:block;
     margin-left: auto;
     margin-right: auto;
+}
+.pagetwo {
+    text-align: center;
+}
+.myDiv {
+    
+    border: 10px outset rgb(195, 242, 251); 
+    background-color: rgb(232, 251, 244);
+    border-style: dashed;
+    text-align: center;
+}
+.pagethree {
+    text-align: center;
+}
+.flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        background-color: DodgerBlue;
+        text-align: center;
+      }
+      
+      .flex-container > div {
+        background-color: #f1f1f1;
+        width: 1350px;
+        margin: 20px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 20px;
 }
